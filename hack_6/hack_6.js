@@ -16,6 +16,10 @@ let result = {
     role:"admin"
 };
 
- 
+result.name = "Foo";
+result.role = "ADMIN";
+
+console.log(result);
+  
 //export result
 module.exports = result; 
