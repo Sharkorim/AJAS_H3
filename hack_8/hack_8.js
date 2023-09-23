@@ -14,6 +14,11 @@ let foo = {
 };
 let result = [];
 
+for (let key in foo) {
+    result.push([key, foo[key]]);
+}
+
+console.log(result); // [["id", 100], ["name", "foo"], ["role", "admin"]]
 
 //export result
 module.exports = result; 
